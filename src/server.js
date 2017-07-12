@@ -15,4 +15,9 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, HOST);
+
+process.on('SIGINT', function(){
+   process.exit(0);
+});
+
 console.log(`Running on http://${HOST}:${PORT}`);
