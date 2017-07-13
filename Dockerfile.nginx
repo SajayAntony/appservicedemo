@@ -1,0 +1,3 @@
+FROM nginx:latest
+COPY ./src/version.txt /usr/share/nginx/html/index.html
+
