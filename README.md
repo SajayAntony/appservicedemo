@@ -1,4 +1,4 @@
-# AppService with ACR integration
+# App Service with ACR integration
 
 Azure Container Registry webhooks can be used to automatically update your application running on Azure App Services that run your container applications. 
 
